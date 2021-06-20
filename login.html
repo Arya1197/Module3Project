@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="login.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+  <body>
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <i class='fas fa-users' style='font-size:48px;color:skyblue'></i>
+      <h1 id="Login">Login Here</h1>
+      <hr>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <input type="password" placeholder="Enter Password" name="psw" required>  
+      <label>
+        <br>
+        <button type="submit" class="Submit">Login</button> 
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <input  type="checkbox" checked="checked" name="Forgot Password" style="margin-bottom:15px" color="white"><label for="Forgot Password" class="Forgot" >Forgot Password</label>
+      </label>
+    </div>
+  </form>
+</div
+</body>
+</html>
